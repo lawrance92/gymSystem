@@ -175,7 +175,7 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-title text-center">
-                        <h2>Why join <span>fitner</span> </h2>
+                        <h2>Why join <span>Silverbacktroops</span> </h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
@@ -221,7 +221,7 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 ">
                     <div class="section-title text-center ">
-                        <h2>What get from <span>fitner membership</span> </h2>
+                        <h2>What you get from <span>Silverbacktroops membership</span> </h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
@@ -359,6 +359,36 @@
                             <div class="pricing-item-left pricing-right">
                                 <ul>
                                     <li>
+                                        <h3 class="pricing-item-left-h3">SILVER MEMBERSHIP </h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="pricing-item-left-h3">BASIC PLAN </h3>
+                                        <h6 class="pricing-item-left-h6">Spend ten, get tons</h6>
+                                    </li>
+                                    <li>
+                                        <h2 class="pricing-item-left-h2">$10 /mo</h2>
+                                        <p class="pricing-item-left-p">plus taxes and fees</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pricing-item-right pricing-right">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Unlimited Access to Home Club</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free Fitness Training</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free training session with a Club</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Over 116 free group fitness classes</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free functional movement screen</a></li>
+                                </ul>
+                                <a href="# " class="btn btn-4">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-40">
+                        <div class="pricing-item media pricing-item-bgc">
+                            <div class="pricing-item-left pricing-right">
+                                <ul>
+                                    <li>
                                         <h3 class="pricing-item-left-h3">CLASSIC MEMBERSHIP </h3>
                                     </li>
                                     <li>
@@ -380,6 +410,36 @@
                                     <li><a href="#"><i class="fas fa-check-circle "></i> Free functional movement screen</a></li>
                                 </ul>
                                 <a href="# " class="btn btn-4">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-40">
+                        <div class="pricing-item media">
+                            <div class="pricing-item-left">
+                                <ul>
+                                    <li>
+                                        <h3 class="pricing-item-left-h3">CLASSIC MEMBERSHIP </h3>
+                                    </li>
+                                    <li>
+                                        <h3 class="pricing-item-left-h3">BASIC PLAN </h3>
+                                        <h6 class="pricing-item-left-h6">Spend ten, get tons</h6>
+                                    </li>
+                                    <li>
+                                        <h2 class="pricing-item-left-h2">$10 /mo</h2>
+                                        <p class="pricing-item-left-p">plus taxes and fees</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pricing-item-right">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Unlimited Access to Home Club</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free Fitness Training</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free training session with a Club</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Over 116 free group fitness classes</a></li>
+                                    <li><a href="#"><i class="fas fa-check-circle "></i> Free functional movement screen</a></li>
+                                </ul>
+                                <a href="# " class="btn btn-3">Get Started</a>
                             </div>
                         </div>
                     </div>
