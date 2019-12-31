@@ -228,7 +228,7 @@
     .about-box-right {
         padding: 65px;
     }
-    .fitner-border::before {
+    .silverback-border::before {
         right: 3px;
     }
     .pricing-item-right ul li a {
@@ -253,7 +253,7 @@
         height: 23px;
         clip-path: polygon(50% 56%, 0 0, 100% 0);
     }
-    .fitner-classes-tab .tab-content {
+    .silverback-classes-tab .tab-content {
         text-align: center;
     }
     .cta-left h2 {
@@ -272,7 +272,7 @@
     .feature-home-2 .feature-item {
         padding: 0 10px;
     }
-    .fitner-2 .fitner-item {
+    .silverback-2 .silverback-item {
         padding: 0 0;
     }
     .fullslider .owl-nav button.owl-next,
@@ -412,7 +412,7 @@
         font-size: 24px;
         line-height: 35px;
     }
-    .fitner-item h2 {
+    .silverback-item h2 {
         font-size: 27px;
         line-height: 36px;
         padding: 19px 0 19px;
@@ -492,24 +492,24 @@
         height: 23px;
         clip-path: polygon(50% 56%, 0 0, 100% 0);
     }
-    .fitner-classes-tab .tab-content {
+    .silverback-classes-tab .tab-content {
         text-align: center;
     }
     .about-box-left {
         width: 300px;
         padding: 50px 0;
     }
-    .fitner-border::before {
+    .silverback-border::before {
         display: none;
     }
     .pt-100 {
         padding-top: 50px !important;
     }
-    .fitner-tab-all {
+    .silverback-tab-all {
         width: 97px;
         margin: 0 1px;
     }
-    .fitner-tab-all ul li {
+    .silverback-tab-all ul li {
         padding: 24px 0;
     }
     .cta-btn {
@@ -618,11 +618,11 @@
     .desktop-block {
         display: none;
     }
-    .fitner-item {
+    .silverback-item {
         width: 100%;
         margin: 0 auto;
     }
-    .fitner-tab-all {
+    .silverback-tab-all {
         width: 93px;
     }
     ul.classes-tabs li {
@@ -649,7 +649,7 @@
     .desktop-block {
         display: none;
     }
-    .fitner-tab-all {
+    .silverback-tab-all {
         width: 92px;
     }
     ul.classes-tabs li {
@@ -908,7 +908,7 @@
         font-size: 40px;
         line-height: 51px;
     }
-    .fitner-item {
+    .silverback-item {
         padding: 0 0px;
         width: 100%;
     }
@@ -946,10 +946,10 @@
         height: 60px;
         padding: 14px 0;
     }
-    .fitner-tab-all {
+    .silverback-tab-all {
         width: 86px;
     }
-    .fitner-tab-all ul li {
+    .silverback-tab-all ul li {
         padding: 24px 0;
         font-size: 12px;
     }

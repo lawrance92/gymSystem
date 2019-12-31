@@ -107,7 +107,7 @@
 
         /*
         ========================================
-        Fitner Classes
+        Silverback Classes
         ========================================
         */
         $('ul.classes-tabs li').on('click', function() {

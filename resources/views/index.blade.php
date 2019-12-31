@@ -151,7 +151,7 @@
 
     <!-- ===========================
     =====>> Silverbacktroops <<===== -->
-    <section id="fitner-area" class="pt-150">
+    <section id="silverback-area" class="pt-150">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -162,27 +162,27 @@
                     </div>
                 </div>
             </div>
-            <div class="fitner-content pt-40 ">
+            <div class="silverback-content pt-40 ">
                 <div class="row ">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item fitner-border mt-40">
+                        <!-- silverback item -->
+                        <div class="silverback-item silverback-border mt-40">
                             <img src="img/icon/1.png" alt=" ">
                             <h2> Free Fitness Training </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item fitner-border mt-40">
+                        <!-- silverback item -->
+                        <div class="silverback-item silverback-border mt-40">
                             <img src="img/icon/2.png" alt=" ">
                             <h2>Tons of Cardio & Strength </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-sm-6 offset-sm-3">
-                        <!-- fitner item -->
-                        <div class="fitner-item mt-40">
+                        <!-- silverback item -->
+                        <div class="silverback-item mt-40">
                             <img src="img/icon/3.png" alt=" ">
                             <h2>No Commitment Memberships</h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
@@ -192,7 +192,7 @@
             </div>
         </div>
     </section>
-    <!-- =====>> End Fitner <<===== 
+    <!-- =====>> End Silverback <<===== 
     =========================== -->
 
     <!-- ===========================
@@ -467,7 +467,7 @@
 
     <!-- ===========================
     =====>>Classes <<===== -->
-    <section id="fitner-classes-area" class="pt-150">
+    <section id="silverback-classes-area" class="pt-150">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12">
@@ -476,10 +476,10 @@
                     </div>
                 </div>
             </div>
-            <div class="fitner-classes-content pt-50">
+            <div class="silverback-classes-content pt-50">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="fitner-classes-tab">
+                        <div class="silverback-classes-tab">
                             <!-- tab nav -->
                             <ul class="classes-tabs classes-tab-btn">
                                 <li class="tab-link current" data-tab="tab-1">Gym Classes</li>
@@ -488,7 +488,7 @@
 
                             <!-- Tab 1 Gym Classes -->
                             <div id="tab-1" class="tab-content current">
-                                <div class="fitner-tab-all">
+                                <div class="silverback-tab-all">
                                     <h5>sunday</h5>
                                     <ul>
                                         <li><span>no class</span></li>
@@ -497,7 +497,7 @@
                                         <li><span>no class</span></li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-2 fitner-tab-all">
+                                <div class="silverback-tab-2 silverback-tab-all">
                                     <h5>monday</h5>
                                     <ul>
                                         <li><span>hilo(christy)</span>9:30 A.M.</li>
@@ -506,7 +506,7 @@
                                         <li><span>pound fitness(sha)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-3 fitner-tab-all">
+                                <div class="silverback-tab-3 silverback-tab-all">
                                     <h5>tuesday</h5>
                                     <ul>
                                         <li><span>chair yoga(au yong)</span>9:30 A.M.</li>
@@ -515,7 +515,7 @@
                                         <li><span>zumba(cassy lee)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-4 fitner-tab-all">
+                                <div class="silverback-tab-4 silverback-tab-all">
                                     <h5>wednesday</h5>
                                     <ul>
                                         <li><span>magic ball theraphy(ketryna)</span>9:30 A.M.</li>
@@ -524,7 +524,7 @@
                                         <li><span>metafit(tharani)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-5 fitner-tab-all">
+                                <div class="silverback-tab-5 silverback-tab-all">
                                     <h5>thursday</h5>
                                     <ul>
                                         <li><span>pilates(christy)</span>9:30 A.M.</li>
@@ -533,7 +533,7 @@
                                         <li><span>zumba(mun yee)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-6 fitner-tab-all">
+                                <div class="silverback-tab-6 silverback-tab-all">
                                     <h5>friday</h5>
                                     <ul>
                                         <li><span>flow yoga(xiang)</span>9:30 A.M.</li>
@@ -542,7 +542,7 @@
                                         <li><span>zumba(regine)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-7 fitner-tab-all">
+                                <div class="silverback-tab-7 silverback-tab-all">
                                     <h5>saturday</h5>
                                     <ul>
                                         <li><span>yoga(liang)</span>9:00 A.M.</li>
@@ -555,7 +555,7 @@
 
                             <!-- Tab 2 MMA Classes -->
                             <div id="tab-2" class="tab-content ">
-                                <div class="fitner-tab-all">
+                                <div class="silverback-tab-all">
                                     <h5>sunday</h5>
                                     <ul>
                                         <li><span>no class</span></li>
@@ -564,7 +564,7 @@
                                         <li><span>no class</span></li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-2 fitner-tab-all">
+                                <div class="silverback-tab-2 silverback-tab-all">
                                     <h5>monday</h5>
                                     <ul> 
                                         <li><span>boxing</span>8:15 A.M.</li>
@@ -573,7 +573,7 @@
                                         <li><span>nogi mma</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-3 fitner-tab-all">
+                                <div class="silverback-tab-3 silverback-tab-all">
                                     <h5>tuesday</h5>
                                     <ul>
                                         <li><span>muay thai</span>8:15 A.M.</li>
@@ -582,7 +582,7 @@
                                         <li><span>striking 101</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-4 fitner-tab-all">
+                                <div class="silverback-tab-4 silverback-tab-all">
                                     <h5>wednesday</h5>
                                     <ul>
                                         <li><span>nogi mma</span>8:15 A.M.</li>
@@ -591,7 +591,7 @@
                                         <li><span>muay thai</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-5 fitner-tab-all">
+                                <div class="silverback-tab-5 silverback-tab-all">
                                     <h5>thursday</h5>
                                     <ul>
                                         <li><span>muay thai</span>8:15 A.M.</li>
@@ -600,7 +600,7 @@
                                         <li><span>nogi mma</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-6 fitner-tab-all">
+                                <div class="silverback-tab-6 silverback-tab-all">
                                     <h5>friday</h5>
                                     <ul>
                                         <li><span>boxing</span>8:15 A.M.</li>
@@ -609,7 +609,7 @@
                                         <li><span>muay thai</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
-                                <div class="fitner-tab-7 fitner-tab-all">
+                                <div class="silverback-tab-7 silverback-tab-all">
                                     <h5>saturday</h5>
                                     <ul>
                                         <li><span>kick boxing</span>9:30 A.M.</li>
@@ -626,7 +626,7 @@
         </div>
 
     </section>
-    <!-- =====>> End Fitner classes <<===== 
+    <!-- =====>> End Silverback classes <<===== 
     =========================== -->
 
     <!-- ===========================
@@ -636,7 +636,7 @@
             <div class="row ">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-title text-center">
-                        <h2>fitner <span>COACHES</span></h2>
+                        <h2>silverback <span>COACHES</span></h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
@@ -725,5 +725,5 @@
 </body>
 
 
-<!-- Mirrored from wpsprite.com/html/fitner/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:28 GMT -->
+<!-- Mirrored from wpsprite.com/html/silverback/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:28 GMT -->
 </html>

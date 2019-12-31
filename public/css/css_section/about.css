@@ -99,34 +99,34 @@
 
 /*
   ========================================
-  Fitner
+  Silverback
   ========================================
 */
 
-.fitner-about {
+.silverback-about {
     background-image: url(../../img/testimonial/bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.fitner-about .section-title h2 {
+.silverback-about .section-title h2 {
     color: #fff;
 }
 
-.fitner-about .section-title p {
+.silverback-about .section-title p {
     color: #fff;
 }
 
-.fitner-about .fitner-item h2 {
+.silverback-about .silverback-item h2 {
     color: #fff;
 }
 
-.fitner-about .fitner-item p {
+.silverback-about .silverback-item p {
     color: #fff;
 }
 
-.fitner-about .fitner-border::before {
+.silverback-about .silverback-border::before {
     background-color: #f30a4475;
 }
 

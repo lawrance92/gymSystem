@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from wpsprite.com/html/fitner/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:37 GMT -->
 <head>
     @include('head')
 </head>
@@ -82,5 +80,5 @@
 </body>
 
 
-<!-- Mirrored from wpsprite.com/html/fitner/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:37 GMT -->
+<!-- Mirrored from wpsprite.com/html/silverback/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:37 GMT -->
 </html>

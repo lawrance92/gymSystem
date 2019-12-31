@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from wpsprite.com/html/fitner/trainers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:35 GMT -->
 <head>
     @include('head')
 </head>
@@ -38,7 +36,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-title text-center">
-                        <h1>fitner <span>trainers</span></h1>
+                        <h1>silverback <span>trainers</span></h1>
                     </div>
                 </div>
             </div>
@@ -231,5 +229,5 @@
 </body>
 
 
-<!-- Mirrored from wpsprite.com/html/fitner/trainers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:36 GMT -->
+<!-- Mirrored from wpsprite.com/html/silverback/trainers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:36 GMT -->
 </html>

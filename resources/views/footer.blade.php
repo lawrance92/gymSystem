@@ -24,7 +24,7 @@
                 <h6>Contact Us</h6>
                 <ul class="media">
                     <li><i class="fas fa-map-marker-alt"></i></li>
-                    <li><a target="_blank" href="https://www.google.com/maps/place/Silverback+Troops/@3.0357732,101.7666576,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc352b8ac7026b:0xcf2271f762bc8d06!8m2!3d3.0357678!4d101.7688463">1-1 Jalan Tengah Cheras Selatan
+                    <li><a target="_blank" href="https://www.google.com/maps/place/Silverback+Troops/@3.0357732,101.7666576,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc352b8ac7026b:0xcf2271f762bc8d06!8m2!3d3.0357678!4d101.7688463">1-1 Jalan Tengah Cheras Selatan,
                             <br>118, 43200 Batu 9 Cheras, Selangor</a></li>
                 </ul>
                 <ul class="media">

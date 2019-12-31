@@ -41,9 +41,10 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="trainers.html">TRAINERS</a></li>
-                    <li><a href="martial-arts.html">MARTIAL ARTS</a></li>
-                    <li><a href="gym-classes.html">GYM CLASSES</a></li>
+                    {{-- <li><a href="martial-arts.html">MARTIAL ARTS</a></li>
+                    <li><a href="gym-classes.html">GYM CLASSES</a></li> --}}
                     <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 text-right p-0 nobile-position">

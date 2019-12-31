@@ -43,6 +43,10 @@ Route::get('/trainers.html', function () {
     return view('trainers');
 });
 
+Route::get('/register.html', function () {
+    return view('register');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

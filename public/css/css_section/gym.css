@@ -547,27 +547,27 @@ Class name automatically added to element */
 
 /*
   ========================================
-  Fitner
+  Silverback
   ========================================
 */
 
-#fitner-area {}
+#silverback-area {}
 
-.fitner-content {}
+.silverback-content {}
 
 
-/* fitner item */
+/* silverback item */
 
-.fitner-item {
+.silverback-item {
     text-align: center;
     padding: 0 20px;
     width: 320px;
     margin: 0 auto;
 }
 
-.fitner-item img {}
+.silverback-item img {}
 
-.fitner-item h2 {
+.silverback-item h2 {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
@@ -577,17 +577,17 @@ Class name automatically added to element */
     transition: .5s ease-in-out;
 }
 
-.fitner-item:hover h2 {
+.silverback-item:hover h2 {
     color: #f30a46;
 }
 
-.fitner-item p {}
+.silverback-item p {}
 
-.fitner-border {
+.silverback-border {
     position: relative;
 }
 
-.fitner-border::before {
+.silverback-border::before {
     content: '';
     position: absolute;
     top: 0;
@@ -996,15 +996,15 @@ a.video-play-button {
 
 /*
   ========================================
-  Fitner Classes
+  Silverback Classes
   ========================================
 */
 
-#fitner-classes-area {}
+#silverback-classes-area {}
 
-.fitner-classes-content {}
+.silverback-classes-content {}
 
-.fitner-classes-tab {}
+.silverback-classes-tab {}
 
 .classes-tab-btn {
     background-color: #f30a46;
@@ -1080,13 +1080,13 @@ ul.classes-tabs li.current::before {
     display: inherit;
 }
 
-.fitner-tab-all {
+.silverback-tab-all {
     width: 130px;
     display: inline-block;
     margin: 0 2px;
 }
 
-.fitner-tab-all h5 {
+.silverback-tab-all h5 {
     background-color: #001e3c;
     color: #fff;
     text-align: center;
@@ -1098,9 +1098,9 @@ ul.classes-tabs li.current::before {
     font-weight: 700;
 }
 
-.fitner-tab-all ul {}
+.silverback-tab-all ul {}
 
-.fitner-tab-all ul li {
+.silverback-tab-all ul li {
     height: 85px;
     border: 1px solid #f1f1f1;
     margin-top: 7px;
@@ -1115,11 +1115,11 @@ ul.classes-tabs li.current::before {
     transition: all .4s;
 }
 
-.fitner-tab-all ul li:hover {
+.silverback-tab-all ul li:hover {
     background-color: #f30a4418;
 }
 
-.fitner-tab-all ul li span {
+.silverback-tab-all ul li span {
     text-transform: uppercase;
     color: #f30a46;
     font-weight: 700;

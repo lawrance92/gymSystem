@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from wpsprite.com/html/fitner/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:36 GMT -->
 <head>
     @include('head')
 </head>
@@ -122,39 +120,39 @@
     =========================== -->
 
     <!-- ===========================
-    =====>> Fitner <<===== -->
-    <section id="fitner-area" class="fitner-about pt-150 pb-150">
+    =====>> Silverback <<===== -->
+    <section id="silverback-area" class="silverback-about pt-150 pb-150">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-title text-center">
-                        <h2>Why join <span>fitner</span> </h2>
+                        <h2>Why join <span>silverback</span> </h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
                 </div>
             </div>
-            <div class="fitner-content pt-30 ">
+            <div class="silverback-content pt-30 ">
                 <div class="row ">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item mt-50 fitner-border ">
+                        <!-- silverback item -->
+                        <div class="silverback-item mt-50 silverback-border ">
                             <img src="img/icon/1.png" alt=" ">
                             <h2> Free Fitness Training </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item mt-50 fitner-border ">
+                        <!-- silverback item -->
+                        <div class="silverback-item mt-50 silverback-border ">
                             <img src="img/icon/2.png" alt=" ">
                             <h2>Tons of Cardio & Strength </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item mt-50 ">
+                        <!-- silverback item -->
+                        <div class="silverback-item mt-50 ">
                             <img src="img/icon/3.png" alt=" ">
                             <h2>No Commitment Memberships</h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
@@ -164,7 +162,7 @@
             </div>
         </div>
     </section>
-    <!-- =====>> End Fitner <<===== 
+    <!-- =====>> End Silverback <<===== 
     =========================== -->
 
     <!-- ===========================
@@ -177,5 +175,5 @@
 </body>
 
 
-<!-- Mirrored from wpsprite.com/html/fitner/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:37 GMT -->
+<!-- Mirrored from wpsprite.com/html/silverback/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:37 GMT -->
 </html>

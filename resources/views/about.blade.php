@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from wpsprite.com/html/fitner/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:35 GMT -->
 <head>
     @include('head')
 </head>
@@ -37,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-title text-center">
-                        <h1>about <span>fitner</span></h1>
+                        <h1>about <span>silverback</span></h1>
                     </div>
                 </div>
             </div>
@@ -81,7 +79,7 @@
             <div class="row">
                 <!-- Counter Item -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="counter-item fitner-border mt-50">
+                    <div class="counter-item silverback-border mt-50">
                         <i class="flaticon-male-silhouette-variant-showing-muscles"></i>
                         <span class="counter">150</span><sup>+</sup>
                         <p>Clasess Per Week</p>
@@ -90,7 +88,7 @@
 
                 <!-- Counter Item -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="counter-item fitner-border mt-50">
+                    <div class="counter-item silverback-border mt-50">
                         <i class="flaticon-undershirt"></i>
                         <span class="counter">4,250</span><sup>+</sup>
                         <p>Joined Peoples</p>
@@ -99,7 +97,7 @@
 
                 <!-- Counter Item -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="counter-item fitner-border mt-50">
+                    <div class="counter-item silverback-border mt-50">
                         <i class="flaticon-dumbbell"></i>
                         <span class="counter">2,500</span><sup>+</sup>
                         <p>Body Builder Made</p>
@@ -121,39 +119,39 @@
     =========================== -->
 
     <!-- ===========================
-    =====>> Fitner <<===== -->
-    <section id="fitner-area" class="fitner-about pt-150 pb-150">
+    =====>> Silverback <<===== -->
+    <section id="silverback-area" class="silverback-about pt-150 pb-150">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-title text-center">
-                        <h2>Why join <span>fitner</span> </h2>
+                        <h2>Why join <span>silverback</span> </h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
                 </div>
             </div>
-            <div class="fitner-content pt-30 ">
+            <div class="silverback-content pt-30 ">
                 <div class="row ">
                     <div class="col-lg-4 col-md-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item fitner-border mt-50">
+                        <!-- silverback item -->
+                        <div class="silverback-item silverback-border mt-50">
                             <img src="img/icon/1.png" alt=" ">
                             <h2> Free Fitness Training </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item fitner-border mt-50">
+                        <!-- silverback item -->
+                        <div class="silverback-item silverback-border mt-50">
                             <img src="img/icon/2.png" alt=" ">
                             <h2>Tons of Cardio & Strength </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <!-- fitner item -->
-                        <div class="fitner-item mt-50">
+                        <!-- silverback item -->
+                        <div class="silverback-item mt-50">
                             <img src="img/icon/3.png" alt=" ">
                             <h2>No Commitment Memberships</h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
@@ -163,7 +161,7 @@
             </div>
         </div>
     </section>
-    <!-- =====>> End Fitner <<===== 
+    <!-- =====>> End Silverback <<===== 
     =========================== -->
 
     <!-- ===========================
@@ -173,7 +171,7 @@
             <div class="row ">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-title text-center">
-                        <h2>fitner <span>COACHES</span></h2>
+                        <h2>silverback <span>COACHES</span></h2>
                         <p>Kick your feet up! With a gym designed around you, we think
                             <br> you’ll love it here.</p>
                     </div>
@@ -253,158 +251,6 @@
     =========================== -->
 
     <!-- ===========================
-    =====>> Testimonial <<===== -->
-    <section id="testimonial-area" class="testimonial-home1 pt-150">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-8">
-                    <div class="section-title text-left">
-                        <h2>Member Success <span>Stories</span></h2>
-                        <p>Kick your feet up! With a gym designed around you, we think
-                            <br> you’ll love it here.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-content pt-40">
-                <div class="row">
-                    <!-- Testimonial Item -->
-                    <div class="col-lg-6">
-                        <div class="testimonial-item mt-40">
-                            <img src="img/testimonial/1.jpg" alt="">
-                            <div class="testimonial-text">
-                                <h3>“My best days start here”</h3>
-                                <a class="video-play-button " href="https://www.youtube.com/watch?v=ZoZSp-wy8h8">
-                                    <i class="flaticon-play-button "></i>
-                                    <span>Take a Tour</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonial Item -->
-                    <div class="col-lg-6">
-                        <div class="testimonial-item mt-40">
-                            <img src="img/testimonial/2.jpg" alt="">
-                            <div class="testimonial-text">
-                                <h3>“Best place to burn fate and make best ftness”</h3>
-                                <a class="video-play-button " href="https://www.youtube.com/watch?v=ZoZSp-wy8h8">
-                                    <i class="flaticon-play-button "></i>
-                                    <span>Take a Tour</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =====>> End Testimonial <<===== 
-    =========================== -->
-
-    <!-- ===========================
-    =====>> Blog <<===== -->
-    <section id="blog-area" class="pt-150 pb-150">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-12">
-                    <div class="section-title text-center">
-                        <h2>fitner <span>latest blog</span></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-50">
-                <div class="col-lg-8">
-                    <!-- Blog item -->
-                    <div class="blog-item row">
-                        <div class="col-lg-6 col-md-6 p-0">
-                            <div class="blog-img">
-                                <a href="news.html"><img src="img/blog/1.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 p-0">
-                            <div class="blog-text pl-4 pr-4">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-calendar-alt"></i> 11 Dec 2018</a></li>
-                                    <li><a href="#"><i class="fas fa-user"></i> Admin</a></li>
-                                </ul>
-                                <h3 class="blog-title"><a href="news.html">Push your fitness further with our gym facilities</a></h3>
-                                <p>Over 50 group training sessions per week There is no one type or way in our diverse community Alienum phaedrum torquatos nec eu.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Blog item -->
-                    <div class="blog-item row">
-                        <div class="col-lg-6 col-md-6 p-0 mobile-block">
-                            <div class="blog-img">
-                                <a href="news.html"><img src="img/blog/2.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 p-0">
-                            <div class="blog-text pr-4">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-calendar-alt"></i> 11 Dec 2018</a></li>
-                                    <li><a href="#"><i class="fas fa-user"></i> Admin</a></li>
-                                </ul>
-                                <h3 class="blog-title"><a href="news.html">Push your fitness further with our gym facilities</a></h3>
-                                <p>Over 50 group training sessions per week There is no one type or way in our diverse community Alienum phaedrum torquatos nec eu.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 p-0 desktop-block">
-                            <div class="blog-img">
-                                <a href="news.html"><img src="img/blog/2.jpg" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <!-- Blog item -->
-                    <div class="blog-item row">
-                        <div class="col-lg-12 col-md-6 p-0">
-                            <div class="blog-img">
-                                <a href="news.html"><img src="img/blog/3.jpg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-6 p-0">
-                            <div class="blog-text pl-4">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-calendar-alt"></i> 11 Dec 2018</a></li>
-                                    <li><a href="#"><i class="fas fa-user"></i> Admin</a></li>
-                                </ul>
-                                <h3 class="blog-title"><a href="news.html">Push your fitness further with our gym facilities</a></h3>
-                                <p>Over 50 group training sessions per week There is no one type or way in our diverse community Alienum phaedrum torquatos nec eu.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =====>> End Blog <<===== 
-    =========================== -->
-
-    <!-- ===========================
-    =====>> Cta <<===== -->
-    <section id="cta-area" class="cta-bg1 pt-80 pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="cta-left">
-                        <h2>April Membership Offer</h2>
-                        <p>Up To 2 Months Free <span>$39.95/</span> Month Family Membership</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="cta-btn ">
-                        <a href="contact.html" class="btn btn-1">contact us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =====>> End Cta <<===== 
-    =========================== -->
-
-    <!-- ===========================
     =====>> Footer <<===== -->
     <footer id="footer-area" class="pt-100 pb-150">
         @include('footer')
@@ -414,5 +260,5 @@
 </body>
 
 
-<!-- Mirrored from wpsprite.com/html/fitner/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:35 GMT -->
+<!-- Mirrored from wpsprite.com/html/silverback/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:35 GMT -->
 </html>
