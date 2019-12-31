@@ -11,7 +11,7 @@
                         </li>
                         <li>
                             <i class="far fa-clock"></i>
-                            <span>Open: MONDAY - SUNDAY 8AM - 12AM</span>
+                            <span>Open: MONDAY - FRIDAY 6AM - 12AM  SATURDAY - SUNDAY 8AM - 12AM</span>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>

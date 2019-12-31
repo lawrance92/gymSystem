@@ -85,7 +85,7 @@
         <div class="container-fluid ">
             <div class="row ">
                 <div class="col-lg-3 about-box-left-bc p-0 ">
-                    <div class="about-box-left-img "></div>
+                    <img src="img/home/ab1.jpg" style="max-width:95%" alt="logo">
                 </div>
                 <div class="col-lg-9 p-0 ">
                     <div class="about-box-right media">
@@ -315,7 +315,7 @@
                                         <h3 class="pricing-item-left-h3" style="text-decoration: underline; padding-bottom: 10px;">Basic Price</h4>
                                         <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Month</h6>
                                         <h2 class="pricing-item-left-h2" style="padding-bottom: 10px;">RM98.00</h3>
-                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Day</h6>
+                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Entry</h6>
                                         <h2 class="pricing-item-left-h2">RM18.00</h3>
                                     </li>
                                     <li>
@@ -352,7 +352,7 @@
                                         <h3 class="pricing-item-left-h3" style="text-decoration: underline; padding-bottom: 10px;">Basic Price</h4>
                                         <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Month</h6>
                                         <h2 class="pricing-item-left-h2" style="padding-bottom: 10px;">RM118.00</h3>
-                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Day</h6>
+                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Entry</h6>
                                         <h2 class="pricing-item-left-h2">RM28.00</h3>
                                     </li>
                                     <li>
@@ -390,7 +390,7 @@
                                         <h3 class="pricing-item-left-h3" style="text-decoration: underline; padding-bottom: 10px;">Basic Price</h4>
                                         <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Month</h6>
                                         <h2 class="pricing-item-left-h2" style="padding-bottom: 10px;">RM149.00</h3>
-                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Day</h6>
+                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Entry</h6>
                                         <h2 class="pricing-item-left-h2">RM38.00</h3>
                                     </li>
                                     <li>
@@ -430,7 +430,7 @@
                                         <h3 class="pricing-item-left-h3" style="text-decoration: underline; padding-bottom: 10px;">Basic Price</h4>
                                         <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Month</h6>
                                         <h2 class="pricing-item-left-h2" style="padding-bottom: 10px;">RM288.00</h3>
-                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Day</h6>
+                                        <h4 class="pricing-item-left-h6" style="padding-bottom: 10px;">Per Entry</h6>
                                         <h2 class="pricing-item-left-h2">RM48.00</h3>
                                     </li>
                                     <li>

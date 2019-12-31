@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-title text-center">
-                        <h1>contact <span>us</span></h1>
+                        <h1>register <span>member</span></h1>
                     </div>
                 </div>
             </div>
@@ -53,41 +53,32 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contaict-title">
-                        <h2>keep in touch with us</h2>
+                        <h2>Register now for your healthy life</h2>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <form action="https://wpsprite.com/html/silverback/mail.php" method="POST" id="contact-form" class="contact-box">
                         <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="icNumber" placeholder="I/C Number">
+                        <input type="date" name="dateofbirth" placeholder="D.O.B">
+                        <input type="number" name="age" placeholder="Age">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gender
+                            </a>      
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Male</a>
+                                <a class="dropdown-item" href="#">Female</a>
+                            </div>
+                        </div>
+                        <textarea name="address" id="address" placeholder="Address" style="margin-top: 50px;"></textarea>
+                        <input type="text" name="companyName" placeholder="Company Name">
+                        <textarea name="companyAddress" id="companyAddress" placeholder="Company Address"></textarea>
                         <input type="email" name="email" placeholder="Email">
                         <input type="number" name="number" placeholder="Phone">
-                        <textarea name="commet" id="commet" placeholder="Comment"></textarea>
-                        <button type="submit" class="btn btn-7">Send Message</button>
+                        <button type="submit" class="btn btn-7">Register</button>
                     </form>
                     <p class="form-message"></p>
-                </div>
-                <div class="col-lg-4 ">
-                    <div class="contact-ditels m-lg-2">
-                        <ul class="media">
-                            <li><i class="fas fa-envelope"></i></li>
-                            <li>
-                                <a href="#">admin@silverbacktroops.com</a>
-                            </li>
-                        </ul>
-                        <ul class="media">
-                            <li><i class="fas fa-phone-volume"></i></li>
-                            <li>
-                                <a href="#">+6017 200 3696</a>
-                            </li>
-                        </ul>
-                        <ul class="media">
-                            <li><i class="fas fa-map-marker-alt"></i></li>
-                            <li>
-                                <a target="_blank" href="https://www.google.com/maps/place/Silverback+Troops/@3.0357732,101.7666576,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc352b8ac7026b:0xcf2271f762bc8d06!8m2!3d3.0357678!4d101.7688463">                    <li><a target="_blank" href="https://www.google.com/maps/place/Silverback+Troops/@3.0357732,101.7666576,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc352b8ac7026b:0xcf2271f762bc8d06!8m2!3d3.0357678!4d101.7688463">1-1 Jalan Tengah Cheras Selatan,</br>
-                                    118, 43200 Batu 9 Cheras, Selangor</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
