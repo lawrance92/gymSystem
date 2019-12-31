@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index-1');
+    return view('index');
 });
 
 Route::get('/404.html', function () {
@@ -35,8 +35,8 @@ Route::get('/contact.html', function () {
     return view('contact');
 });
 
-Route::get('/index-1.html', function () {
-    return view('index-1');
+Route::get('/index.html', function () {
+    return view('index');
 });
 
 Route::get('/trainers.html', function () {
