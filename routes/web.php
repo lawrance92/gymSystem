@@ -47,6 +47,8 @@ Route::get('/register.html', function () {
     return view('register');
 });
 
+Route::post('memberregister', 'MemberRegisterController@store');
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

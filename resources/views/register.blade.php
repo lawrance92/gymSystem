@@ -22,7 +22,6 @@
 
     <!-- ===========================
     =====>> Top Menu <<===== -->
-
     <header class="top-nav">
         @include('header')
     </header>
@@ -30,7 +29,7 @@
     =========================== -->
 
     <!-- ===========================
-    =====>> Page Hero <<===== -->
+    =====>> Title <<===== -->
     <section id="page-hero" class="about-bg">
         <div class="container">
             <div class="row">
@@ -42,12 +41,12 @@
             </div>
         </div>
     </section>
-    <!-- =====>> End Page Hero <<===== 
+    <!-- =====>> End Title <<===== 
     =========================== -->
 
 
     <!-- ===========================
-    =====>> Contact <<===== -->
+    =====>> Register Form <<===== -->
     <section id="contact-area" class="pt-150 pb-150">
         <div class="container">
             <div class="row">
@@ -57,33 +56,59 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <form action="https://wpsprite.com/html/silverback/mail.php" method="POST" id="contact-form" class="contact-box">
+                    <form action="{{url('memberregister')}}" method="POST" id="contact-form" class="contact-box">
+                        {{csrf_field()}}
                         <input type="text" name="name" placeholder="Name">
-                        <input type="text" name="icNumber" placeholder="I/C Number">
-                        <input type="date" name="dateofbirth" placeholder="D.O.B">
+                        <input type="number" name="icNumber" placeholder="I/C Number">
+                        <input type="date" name="dateOfBirth" placeholder="D.O.B">
                         <input type="number" name="age" placeholder="Age">
-                        <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Gender
-                            </a>      
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Male</a>
-                                <a class="dropdown-item" href="#">Female</a>
-                            </div>
+                        <div class="box">
+                            <select name="gender">
+                                <option selected disabled>-- Choose Gender --</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
                         </div>
-                        <textarea name="address" id="address" placeholder="Address" style="margin-top: 50px;"></textarea>
+                        <textarea name="postalAddress" placeholder="Postal Address" style="margin-top: 50px;"></textarea>
                         <input type="text" name="companyName" placeholder="Company Name">
-                        <textarea name="companyAddress" id="companyAddress" placeholder="Company Address"></textarea>
+                        <textarea name="companyAddress" placeholder="Company Address" style="margin-top: 50px;"></textarea>
+                        <input type="text" name="telephoneNumber" placeholder="Telephone">
+                        <input type="text" name="mobileNumber" placeholder="Mobile">  
                         <input type="email" name="email" placeholder="Email">
-                        <input type="number" name="number" placeholder="Phone">
+                        <div class="box">
+                            <select name="preferPersonalTrainer">
+                                <option selected disabled>Do you prefer to have personal trainer?</option>
+                                <option value="male">Yes</option>
+                                <option value="female">No</option>
+                            </select>
+                        </div>          
+                        <input type="text" name="emergencyName" placeholder="Emergency Contact Name" style="margin-top: 50px;">
+                        <input type="text" name="emergencyRelationship" placeholder="Emergency Contact Relationship">
+                        <input type="text" name="emergencyMobile" placeholder="Emergency Contact Mobile">
+                        <div class="box">
+                            <select name="medicalCondition">
+                                <option selected disabled>Do you have any current medical conditions?</option>
+                                <option value="male">Yes</option>
+                                <option value="female">No</option>
+                            </select>
+                        </div>
+                        <textarea name="medicalComments" placeholder="Specify if Yes" style="margin-top: 50px;"></textarea>
                         <button type="submit" class="btn btn-7">Register</button>
                     </form>
+                    @if(count($errors) > 0)
+                        @foreach ($errors->all() as $error)
+                            <p class="form-message">{{$error}}</p>
+                        @endforeach
+                    @endif
+                    @if(\Session::has('success'))
+                        <p class="form-message">{{\Session::get('success')}}</p>
+                    @endif
                     <p class="form-message"></p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- =====>> End Contact <<===== 
+    <!-- =====>> End Register Form <<===== 
     =========================== -->
 
      <!-- ===========================
