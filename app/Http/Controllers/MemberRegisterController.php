@@ -14,18 +14,18 @@ class MemberRegisterController extends Controller
 
     public function store(Request $request) 
     {
-        $this->validate($request, [
-            'name' => 'required',
-            'icNumber' => 'required',
-            'dateOfBirth' => 'required',
-            'gender' => 'required',
-            'age' => 'required',
-            'mobileNumber' => 'required',
-            'preferPersonalTrainer' => 'required',
-            'emergencyName' => 'required',
-            'emergencyMobile' => 'required',
-            'medicalCondition' => 'required'
-        ]);
+        // $this->validate($request, [
+        //     'name' => 'required',
+        //     'icNumber' => 'required',
+        //     'dateOfBirth' => 'required',
+        //     'gender' => 'required',
+        //     'age' => 'required',
+        //     'mobileNumber' => 'required',
+        //     'preferPersonalTrainer' => 'required',
+        //     'emergencyName' => 'required',
+        //     'emergencyMobile' => 'required',
+        //     'medicalCondition' => 'required'
+        // ]);
 
         $member = new GymMember([
             'name' => $request->get('name'),
@@ -33,7 +33,7 @@ class MemberRegisterController extends Controller
             'dateofbirth' => $request->get('dateOfBirth'),
             'age' => $request->get('age'),
             'gender' => $request->get('gender'),
-            'postaladdress' => $request->get('adress'),
+            'postaladdress' => $request->get('postalAddress'),
             'companyname' => $request->get('companyName'),
             'companyaddress' => $request->get('companyAddress'),
             'telephonenumber' => $request->get('telephoneNumber'),
@@ -43,8 +43,9 @@ class MemberRegisterController extends Controller
             'emergencycontactname' => $request->get('emergencyName'),
             'emergencycontactrelationship' => $request->get('emergencyRelationship'),
             'emergencymobilenumber' => $request->get('emergencyMobile'),
-            'medicalcondition' => $request->get('emergencyCondition'),
-            'medicalcomments' => $request->get('medicalComments')
+            'medicalcondition' => $request->get('medicalCondition'),
+            'medicalcomments' => $request->get('medicalComments'),
+            'status' => 'inactive'
         ]);
 
         $member->save();

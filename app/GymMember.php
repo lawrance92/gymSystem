@@ -23,6 +23,7 @@ class GymMember extends Model
         'emergencycontactrelationship',
         'emergencymobilenumber',
         'medicalcondition',
-        'medicalcomments'
+        'medicalcomments',
+        'status'
     ];
 }
