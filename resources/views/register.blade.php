@@ -67,28 +67,33 @@
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                         </select>
-                        <textarea name="postalAddress" placeholder="Postal Address" style="margin-top: 40px;"></textarea>
+                        <textarea name="postalAddress" placeholder="Postal Address"></textarea>
                         <input type="text" name="companyName" placeholder="Company Name">
                         <textarea name="companyAddress" placeholder="Company Address"></textarea>
-                        <input type="text" name="telephoneNumber" placeholder="Telephone">
+                        <input type="text" name="telephoneNumber" placeholder="Telephone(Home)">
                         <input type="text" name="mobileNumber" placeholder="Mobile" required>  
                         <input type="email" name="email" placeholder="Email">
-                        <select name="preferPersonalTrainer" style="width:400px;" required>
+                        <select name="preferPersonalTrainer" required>
                             <option selected disabled value="">Do you prefer to have personal trainer?</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>         
-                        <input type="text" name="emergencyName" placeholder="Emergency Contact Name" style="margin-top: 40px;" required>
+                        <input type="text" name="emergencyName" placeholder="Emergency Contact Name" required>
                         <input type="text" name="emergencyRelationship" placeholder="Emergency Contact Relationship">
                         <input type="text" name="emergencyMobile" placeholder="Emergency Contact Mobile" required>
-                        <select name="medicalCondition" style="width:444px;" required>
+                        <select id="medicalCondition" name="medicalCondition" required>
                             <option selected disabled value="">Do you have any current medical conditions?</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>
-                        <textarea name="medicalComments" placeholder="Specify if Yes" style="margin-top: 40px;"></textarea>
+                        <textarea id="medicalText" name="medicalComments" placeholder="Specify if Yes"></textarea>
                         <button id="registerBtn" type="submit" class="btn btn-7">Register</button>
                     </form>
+                    @if ('success')
+                        <p class="form-message"></p>
+                    @else 
+                        <p class="form-message"></p>
+                    @endif
                     <p class="form-message"></p>
                 </div>
             </div>
@@ -108,8 +113,9 @@
 
 <script>
     $(document).ready(function() {
-        $('#registerBtn').click(function(){
-            alert("The paragraph was clicked.");
+        $('#medicalText').hide();
+        $('#medicalCondition').change(function (){
+            $(this).val() == 'yes' ? $('#medicalText').prop('required', true).show() : $('#medicalText').removeAttr('required').hide();
         });
     });
 </script>
