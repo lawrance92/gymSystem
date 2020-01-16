@@ -56,45 +56,39 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <form action="{{url('memberregister')}}" method="POST" id="contact-form" class="contact-box">
+                    <form id="contact-form" class="contact-box" onsubmit="doSomething()">
                         {{csrf_field()}}
                         <input type="text" name="name" placeholder="Name" required>
-                        <input type="number" name="icNumber" placeholder="I/C Number" required>
-                        <input type="date" name="dateOfBirth" placeholder="D.O.B" required>
+                        <input type="number" name="identitynumber" placeholder="I/C Number" required>
+                        <input type="date" name="dateofbirth" placeholder="D.O.B" required>
                         <input type="number" name="age" placeholder="Age" required>
                         <select name="gender" required>
                             <option selected disabled value="">-- Choose Gender --</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
                         </select>
-                        <textarea name="postalAddress" placeholder="Postal Address"></textarea>
-                        <input type="text" name="companyName" placeholder="Company Name">
-                        <textarea name="companyAddress" placeholder="Company Address"></textarea>
-                        <input type="text" name="telephoneNumber" placeholder="Telephone(Home)">
-                        <input type="text" name="mobileNumber" placeholder="Mobile" required>  
+                        <textarea name="postaladdress" placeholder="Postal Address"></textarea>
+                        <input type="text" name="companyname" placeholder="Company Name">
+                        <textarea name="companyaddress" placeholder="Company Address"></textarea>
+                        <input type="text" name="telephonenumber" placeholder="Telephone(Home)">
+                        <input type="text" name="mobilenumber" placeholder="Mobile" required>  
                         <input type="email" name="email" placeholder="Email">
-                        <select name="preferPersonalTrainer" required>
+                        <select name="preferpersonaltrainer" required>
                             <option selected disabled value="">Do you prefer to have personal trainer?</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>         
-                        <input type="text" name="emergencyName" placeholder="Emergency Contact Name" required>
-                        <input type="text" name="emergencyRelationship" placeholder="Emergency Contact Relationship">
-                        <input type="text" name="emergencyMobile" placeholder="Emergency Contact Mobile" required>
-                        <select id="medicalCondition" name="medicalCondition" required>
+                        <input type="text" name="emergencycontactname" placeholder="Emergency Contact Name" required>
+                        <input type="text" name="emergencycontactrelationship" placeholder="Emergency Contact Relationship">
+                        <input type="text" name="emergencymobilenumber" placeholder="Emergency Contact Mobile" required>
+                        <select id="medicalCondition" name="medicalcondition" required>
                             <option selected disabled value="">Do you have any current medical conditions?</option>
                             <option value="yes">Yes</option>
                             <option value="no">No</option>
                         </select>
-                        <textarea id="medicalText" name="medicalComments" placeholder="Specify if Yes"></textarea>
+                        <textarea id="medicalText" name="medicalcomments" placeholder="Specify if Yes"></textarea>
                         <button id="registerBtn" type="submit" class="btn btn-7">Register</button>
                     </form>
-                    @if ('success')
-                        <p class="form-message"></p>
-                    @else 
-                        <p class="form-message"></p>
-                    @endif
-                    <p class="form-message"></p>
                 </div>
             </div>
         </div>
@@ -118,7 +112,26 @@
             $(this).val() == 'yes' ? $('#medicalText').prop('required', true).show() : $('#medicalText').removeAttr('required').hide();
         });
     });
-</script>
 
-<!-- Mirrored from wpsprite.com/html/silverback/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:39 GMT -->
+    function doSomething() {
+        var data = $("#contact-form").serializeArray();
+        console.log(data);
+        $.ajax({
+            type: "POST",
+            url: "{{url('memberregister')}}",
+            data: {data: data},
+            dataType: 'json',
+            headers: {
+                'X-CSRF-TOKEN': $('input[name=_token]').val()
+            },
+            error: function (data) {
+                if(data.responseText == 'success') {
+                    $('#contact-form').find('input[type="text"], input[type="number"], input[type="date"], input[type="email"], textarea').val('');
+                    $('#contact-form').find('select option:first-child').prop('selected', true);
+                    alert('Your Registration Have Done Wait Until Gym Management Will Call you');
+                }
+            }
+        });
+    }
+</script>
 </html>

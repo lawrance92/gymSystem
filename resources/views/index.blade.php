@@ -723,7 +723,4 @@
     <!-- =====>> End Footer <<===== 
     =========================== -->
 </body>
-
-
-<!-- Mirrored from wpsprite.com/html/silverback/index-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Dec 2019 11:04:28 GMT -->
 </html>
