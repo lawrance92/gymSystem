@@ -63,7 +63,7 @@
                     <div class="about-right-text">
                         <h3>We provide every new member with a free fitness </h3>
                         <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
-                        <p>Expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         <!-- silverback item -->
                         <div class="silverback-item silverback-border mt-50">
                             <img src="img/icon/1.png" alt=" ">
-                            <h2> Free Fitness Training </h2>
+                            <h2> Fitness Training </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                         <!-- silverback item -->
                         <div class="silverback-item mt-50">
                             <img src="img/icon/3.png" alt=" ">
-                            <h2>No Commitment Memberships</h2>
+                            <h2> Memberships</h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>

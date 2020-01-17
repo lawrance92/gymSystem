@@ -197,27 +197,6 @@
     <!-- =====>> End Team <<===== 
     =========================== -->
 
-    <!-- ===========================
-    =====>> Cta <<===== -->
-    <section id="cta-area" class="cta-bg1 pt-80 pb-80">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="cta-left">
-                        <h2>April Membership Offer</h2>
-                        <p>Up To 2 Months Free <span>$39.95/</span> Month Family Membership</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="cta-btn ">
-                        <a href="contact.html" class="btn btn-1">contact us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- =====>> End Cta <<===== 
-    =========================== -->
 
      <!-- ===========================
     =====>> Footer <<===== -->

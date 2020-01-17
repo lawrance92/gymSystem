@@ -85,14 +85,14 @@
         <div class="container-fluid ">
             <div class="row ">
                 <div class="col-lg-3 about-box-left-bc p-0 ">
-                    <img src="img/home/ab1.jpg" style="max-width:95%" alt="logo">
+                    <img src="img/home/kidsposter.jpg" style="max-width:95%" alt="logo">
                 </div>
                 <div class="col-lg-9 p-0 ">
                     <div class="about-box-right media">
                         <div class="about-box-right-img "></div>
-                        <h2>Try us for
-                            <br> <span>1 days</span> FREE</h2>
-                        <a href="contact.html" class="btn btn-1">Get GYM PASS</a>
+                        <h2>Kick your feet up!
+                            <br> <span> With a designed  gym around you</span></h2>
+                        <a href="contact.html" class="btn btn-1">Contact us</a>
                     </div>
                     <div id="main">
                         <div class="slideFrame" id="slider-0">
@@ -168,7 +168,7 @@
                         <!-- silverback item -->
                         <div class="silverback-item silverback-border mt-40">
                             <img src="img/icon/1.png" alt=" ">
-                            <h2> Free Fitness Training </h2>
+                            <h2> Fitness Training </h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                         <!-- silverback item -->
                         <div class="silverback-item mt-40">
                             <img src="img/icon/3.png" alt=" ">
-                            <h2>No Commitment Memberships</h2>
+                            <h2>Memberships</h2>
                             <p>Over 50 group training sessions per week There is no one type or way in our diverse community. Come as you are!</p>
                         </div>
                     </div>
@@ -500,28 +500,28 @@
                                 <div class="silverback-tab-2 silverback-tab-all">
                                     <h5>monday</h5>
                                     <ul>
-                                        <li><span>hilo(christy)</span>9:30 A.M.</li>
-                                        <li><span>yoga(alexa)</span>10.45 A.M.</li>
-                                        <li><span>salsation(along)</span>7.30 P.M.</li>
-                                        <li><span>pound fitness(sha)</span>8.30 P.M.</li>
+                                        <li><span>HILO (CHRISTY)</span>9.30 A.M.</li>
+                                        <li><span>YOGA (ALEXA)</span>10.45 A.M.</li>
+                                        <li><span>TO BE ANNOUNCED</span></li>
+                                        <li><span>POUND FITNESS (SHA)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-3 silverback-tab-all">
                                     <h5>tuesday</h5>
                                     <ul>
-                                        <li><span>chair yoga(au yong)</span>9:30 A.M.</li>
-                                        <li><span>pound fitness(alexa)</span>10.45 A.M.</li>
-                                        <li><span>hi-lo aerobic(christ)</span>7.30 P.M.</li>
-                                        <li><span>zumba(cassy lee)</span>8.30 P.M.</li>
+                                        <li><span>CHAIR YOGA (AU YONG)</span>9.30 A.M.</li>
+                                        <li><span>POUND FITNESS (SHA)</span>10.45 A.M.</li>
+                                        <li><span>HI-LO AEROBIC</span>7.30 P.M.</li>
+                                        <li><span>ZUMBA (CASSY LEE)</span>8.30 P.M</li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-4 silverback-tab-all">
                                     <h5>wednesday</h5>
                                     <ul>
-                                        <li><span>magic ball theraphy(ketryna)</span>9:30 A.M.</li>
-                                        <li><span>zumba(wenny)</span>10.45 A.M.</li>
-                                        <li><span>cycling dance coming soon</span>7.30 P.M.</li>
-                                        <li><span>metafit(tharani)</span>8.30 P.M.</li>
+                                        <li><span>TO BE ANNOUNCED</span></li>
+                                        <li><span>ZUMBA (WENNY)</span>10.45 A.M.</li>
+                                        <li><span>TO BE ANNOUNCED</span></li>
+                                        <li><span>METAFIT (THARANI)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-5 silverback-tab-all">
@@ -529,7 +529,7 @@
                                     <ul>
                                         <li><span>pilates(christy)</span>9:30 A.M.</li>
                                         <li><span>nirvana yoga(ming jie)</span>10.45 A.M.</li>
-                                        <li><span>coming coon(tba)</span></li>
+                                        <li><span>TO BE ANNOUNCED</span></li>
                                         <li><span>zumba(mun yee)</span>8.30 P.M.</li>
                                     </ul>
                                 </div>
@@ -570,40 +570,40 @@
                                         <li><span>boxing</span>8:15 A.M.</li>
                                         <li><span>open mats</span></li>
                                         <li><span>kick boxing</span>6.30 P.M.</li>
-                                        <li><span>nogi mma</span>8.00 P.M.</li>
+                                        <li><span>OPEN MATS</span></li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-3 silverback-tab-all">
                                     <h5>tuesday</h5>
                                     <ul>
-                                        <li><span>muay thai</span>8:15 A.M.</li>
+                                        <li><span>KICK boxing</span>8:15 A.M.</li>
                                         <li><span>open mats</span></li>
-                                        <li><span>muay thai</span>6.30 P.M.</li>
-                                        <li><span>striking 101</span>8.00 P.M.</li>
+                                        <li><span>boxing</span>6.30 P.M.</li>
+                                        <li><span>OPEN MATS</span></li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-4 silverback-tab-all">
                                     <h5>wednesday</h5>
                                     <ul>
-                                        <li><span>nogi mma</span>8:15 A.M.</li>
+                                        <li><span>MUAY THAI</span>8:15 A.M.</li>
                                         <li><span>open mats</span></li>
-                                        <li><span>boxing</span>6.30 P.M.</li>
-                                        <li><span>muay thai</span>8.00 P.M.</li>
+                                        <li><span>MUAY THAI</span>6.30 P.M.</li>
+                                        <li><span>KICK BOXING</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-5 silverback-tab-all">
                                     <h5>thursday</h5>
                                     <ul>
-                                        <li><span>muay thai</span>8:15 A.M.</li>
+                                        <li><span>NO GI MMA</span>8:15 A.M.</li>
                                         <li><span>open mats</span></li>
-                                        <li><span>muay thai</span>6.30 P.M.</li>
+                                        <li><span>BOXING</span>6.30 P.M.</li>
                                         <li><span>nogi mma</span>8.00 P.M.</li>
                                     </ul>
                                 </div>
                                 <div class="silverback-tab-6 silverback-tab-all">
                                     <h5>friday</h5>
                                     <ul>
-                                        <li><span>boxing</span>8:15 A.M.</li>
+                                        <li><span>OPEN SPARRING</span>8:15 A.M.</li>
                                         <li><span>open mats</span></li>
                                         <li><span>open sparring</span>6.30 P.M.</li>
                                         <li><span>muay thai</span>8.00 P.M.</li>
@@ -612,8 +612,8 @@
                                 <div class="silverback-tab-7 silverback-tab-all">
                                     <h5>saturday</h5>
                                     <ul>
-                                        <li><span>kick boxing</span>9:30 A.M.</li>
-                                        <li><span>MMA S&C</span>11:00 A.M.</li>
+                                        <li><span>MMA</span></span>9:30 A.M.</li>
+                                        <li><span>JUNIOR MMA</span>11:00 A.M.</li>
                                         <li><span>no class</span></li>
                                         <li><span>no class</span></li>
                                     </ul>
