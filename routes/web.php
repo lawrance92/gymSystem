@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'IndexController@create');
 
 Route::get('/404.html', function () {
     return view('404');
@@ -35,9 +33,7 @@ Route::get('/contact.html', function () {
     return view('contact');
 });
 
-Route::get('/index.html', function () {
-    return view('index');
-});
+Route::get('/index.html', 'IndexController@create');
 
 Route::get('/trainers.html', function () {
     return view('trainers');

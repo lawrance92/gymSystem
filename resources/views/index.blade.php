@@ -85,7 +85,8 @@
         <div class="container-fluid ">
             <div class="row ">
                 <div class="col-lg-3 about-box-left-bc p-0 ">
-                    <img src="img/home/kidsposter.jpg" style="max-width:95%" alt="logo">
+                    <!-- <img src="img/home/kidsposter.jpg" style="max-width:95%" alt="logo"> -->
+                    <img src="{{url('storage/'.$image[0]->image)}}" style="max-width:95%" alt="{{$image[0]->description}}">
                 </div>
                 <div class="col-lg-9 p-0 ">
                     <div class="about-box-right media">
